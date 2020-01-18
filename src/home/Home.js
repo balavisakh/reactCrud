@@ -19,17 +19,18 @@ export default class Home extends Component {
     }
     render() {
         const { datas } = this.state
+        console.log(datas);
         return (
             
             <div>
                 <Navbar />
 
               
-                <ul>
+                {/* <ul>
                 {datas.map(allData => (
                 <li key={allData.id}>{allData.id}</li>
                 ))}
-            </ul>
+            </ul> */}
             </div>
         )
     }
